@@ -1,0 +1,86 @@
+
+.header {
+    border: 10px double black;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: rgb(204, 74, 74);
+    color: white
+}
+
+.header-title {
+    margin-right: 50%;
+    flex: 1;
+    margin-left: 3%;
+}
+
+.nav_links {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
+}
+
+.header-link {
+    font-size: 1.5rem;
+}
+
+.link-home {
+    flex: 1;
+}
+
+.link-about {
+    flex: 2;
+}
+
+.link-menu {
+    flex: 2;
+}
+
+h1 {
+    font-size: clamp(1rem, 4.5vw, 4rem);
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+.hero-img_container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hero-img {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#image {
+    width: 80%;
+}
+
+.overlay-text_container {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.85) 100%);
+    position: relative;
+    max-width: 80%;
+    margin-left: 10%;
+    top: 5.5em;
+    text-align: center;
+}
+
+#overlay-text {
+    position: inherit;
+    font-size: clamp(1rem, 3vw, 2.5rem);
+    color: white;
+}
+
+footer {
+    border: 3px solid black
+}
