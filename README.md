@@ -8,4 +8,6 @@ This website is created as a project for my Web Dev class. The prompt is to make
 
 This website is made for satirical enjoyment while fulfilling the need to turn in a working website. 
 
+This website is currently unfinished and still being updated.
+
 Looney Tunes/Warner Bros. please don't come for me, I'm just having fun.
