@@ -55,6 +55,11 @@ a {
     font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
+.welcome-msg {
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
 /* Useful link https://www.w3schools.com/howto/howto_css_column_cards.asp */
 
 .menu-cards {
@@ -64,13 +69,15 @@ a {
 /* Float three columns side by side */
 .column {
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 0 10px;
     /* height: 80%; */
   }
   
   /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
+  .row {
+      margin-top: 20px;
+    }
   
   /* Clear floats after the columns */
   .row:after {
@@ -84,9 +91,14 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
-    background-color: #6d1a1a;
+    /* background-color: #6d1a1a; */
+    background: radial-gradient(closest-side, rgba(83, 25, 80, 0.85) 30%, rgba(24, 112, 100, 0) 70%, rgba(189, 24, 24, 0.85) 95%)
   }
   
+.menu-card-desc_container {
+    font-size: clamp(1rem, 2vw, 3rem);
+}
+
   /* Responsive columns - one column layout (vertical) on small screens
   @media screen and (max-width: 600px) {
     .column {
@@ -97,7 +109,8 @@ a {
   } */
 
 #menu-card-img {
-    width: clamp(1rem, 15vw, 20rem);
+    width: clamp(1rem, 10vw, 10rem);
+    /* height: clamp(1rem, 8vw, 20rem); */
 }
 
 .signup_container {

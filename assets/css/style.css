@@ -6,7 +6,7 @@
     max-width: 100%;
     background: linear-gradient(to top, rgba(83, 25, 80, 0.85) 25%, rgba(24, 112, 100, 0) 50%, rgba(189, 24, 24, 0.85) 75%);
     color: white;
-    gap: clamp(1rem, 30%, 80rem);
+    gap: clamp(1rem, 25%, 80rem);
 }
 
 .header-title {
@@ -63,7 +63,7 @@ a {
 .hero-img {
     max-width: 100%;
     text-align: center;
-    margin-top: 1%;
+    margin-top: clamp(0.5rem, 0.5vw, 2rem);
 }
 
 #hero-image {
