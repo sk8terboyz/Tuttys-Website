@@ -23,7 +23,7 @@
 }
 
 .header-link {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.5vw, 3rem);
 }
 
 .link-home {
@@ -53,6 +53,10 @@ a {
     color: white;
     cursor: pointer;
     font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
+a:hover {
+    font-size: clamp(1rem, 2.5vw, 3rem);
 }
 
 .hero-img_container {

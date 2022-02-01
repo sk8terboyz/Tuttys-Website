@@ -64,6 +64,8 @@ a {
 
 .menu-cards {
     box-sizing: border-box;
+    padding-left: 4%;
+    padding-right: 2%;
 }
 
 /* Float three columns side by side */
@@ -71,47 +73,59 @@ a {
     float: left;
     width: 30%;
     padding: 0 10px;
-    /* height: 80%; */
-  }
-  
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {
-      margin-top: 20px;
-    }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Style the counter cards */
-  .card {
+}
+
+/* Style the counter cards */
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
     /* background-color: #6d1a1a; */
-    background: radial-gradient(closest-side, rgba(83, 25, 80, 0.85) 30%, rgba(24, 112, 100, 0) 70%, rgba(189, 24, 24, 0.85) 95%)
-  }
-  
+    background: radial-gradient(closest-side, rgba(83, 25, 80, 0.85) 30%, rgba(24, 112, 100, 0) 70%, rgba(189, 24, 24, 0.85) 95%);
+    height: clamp(1rem, 50vh, 50rem);
+}
+
+.menu-card-title {
+    font-size: clamp(1rem, 1vw, 3rem);
+    padding-bottom: 9vh;
+}
+
 .menu-card-desc_container {
     font-size: clamp(1rem, 2vw, 3rem);
 }
 
-  /* Responsive columns - one column layout (vertical) on small screens
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  } */
-
 #menu-card-img {
-    width: clamp(1rem, 10vw, 10rem);
-    /* height: clamp(1rem, 8vw, 20rem); */
+    width: clamp(1rem, 10vw, 20rem);
+    height: clamp(1rem, 12vh, 20rem);
 }
+
+#menu-card-img:hover {
+    width: clamp(1rem, 12vw, 20rem);
+    height: clamp(1rem, 14vh, 20rem);
+}
+
+#ice-tea {
+    width: clamp(1rem, 8vw, 20rem);
+    height: clamp(1rem, 18vh, 20rem);
+}
+
+#ice-tea:hover {
+    width: clamp(1rem, 10vw, 20rem);
+    height: clamp(1rem, 18vh, 20rem);
+}
+
 
 .signup_container {
     font-size: clamp(1rem, 1vw, 4rem);
