@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-size: clamp(1rem, 3vw, 3rem);
 }
 
 .welcome-msg {
@@ -104,7 +104,7 @@ a:hover {
 
 .menu-card-title {
     font-size: clamp(1rem, 1vw, 3rem);
-    padding-bottom: 9vh;
+    padding-bottom: clamp(1rem, 6vh, 10rem);
 }
 
 .menu-card-desc_container {
@@ -122,12 +122,12 @@ a:hover {
 }
 
 #ice-tea {
-    width: clamp(1rem, 8vw, 20rem);
+    width: clamp(1rem, 6vw, 20rem);
     height: clamp(1rem, 18vh, 20rem);
 }
 
 #ice-tea:hover {
-    width: clamp(1rem, 10vw, 20rem);
+    width: clamp(1rem, 8vw, 20rem);
     height: clamp(1rem, 20vh, 20rem);
 }
 
