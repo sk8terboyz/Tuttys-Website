@@ -55,6 +55,10 @@ a {
     font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
+a:hover {
+    font-size: clamp(1rem, 2.5vw, 3rem);
+}
+
 .welcome-msg {
     text-align: center;
     font-size: clamp(1rem, 2vw, 2rem);
@@ -124,9 +128,8 @@ a {
 
 #ice-tea:hover {
     width: clamp(1rem, 10vw, 20rem);
-    height: clamp(1rem, 18vh, 20rem);
+    height: clamp(1rem, 20vh, 20rem);
 }
-
 
 .signup_container {
     font-size: clamp(1rem, 1vw, 4rem);
