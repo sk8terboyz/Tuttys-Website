@@ -104,6 +104,10 @@ a:hover {
     font-size: clamp(1rem, 1vw, 3rem);
 }
 
+p {
+    padding: 1%;
+}
+
 .right-aligned_container {
     border: 3px solid rgba(143, 139, 139, 0.747);
     margin-top: 50px;
@@ -157,6 +161,12 @@ a:hover {
 
 .apply-here {
     max-width: 30%;
+}
+
+input {
+    width: clamp(1rem, 8vw, 10rem);
+    height: clamp(1rem, 2vh, 10rem);
+    font-size: clamp(1rem, 1vw, 2rem);
 }
 
 #signup-btn {
