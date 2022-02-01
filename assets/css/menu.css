@@ -93,8 +93,9 @@ a {
     padding: 16px;
     text-align: center;
     /* background-color: #6d1a1a; */
-    background: radial-gradient(closest-side, rgba(83, 25, 80, 0.85) 30%, rgba(24, 112, 100, 0) 70%, rgba(189, 24, 24, 0.85) 95%);
+    background: radial-gradient(closest-side, rgba(62, 211, 72, 0.219) 30%, rgba(24, 112, 100, 0) 70%, rgba(26, 98, 116, 0.658) 95%);
     height: clamp(1rem, 50vh, 50rem);
+    border-radius: 20%;
 }
 
 .menu-card-title {
