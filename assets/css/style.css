@@ -63,6 +63,7 @@ a:hover {
 .hero-img_container {
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 2%;
 }
 
 .hero-img {
@@ -80,7 +81,7 @@ a:hover {
     position: relative;
     max-width: 80%;
     margin-left: 10%;
-    top: 5.5em;
+    bottom: clamp(1rem, 15vh, 20rem);
     text-align: center;
 }
 
