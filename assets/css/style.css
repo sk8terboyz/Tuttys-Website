@@ -129,6 +129,16 @@ p {
     max-width: 90%;
 }
 
+#quote {
+    margin: 0%;
+    padding: 0%;
+    font-size: clamp(1rem, 1.3vw, 3rem);
+}
+
+#disclaimer {
+    font-size: clamp(0.001rem, 0.5vw, 5rem);
+}
+
 .left-aligned_container {
     border: 3px solid rgba(143, 139, 139, 0.747);
     margin-top: 50px;
