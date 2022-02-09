@@ -131,14 +131,20 @@ p {
 
 #quote {
     margin-top: 0%;
-    margin-bottom: 1%;
+    margin-bottom: 20%;
     margin-left: 1%;
     padding: 0%;
     font-size: clamp(1rem, 1.3vw, 3rem);
 }
 
+#quoter {
+    font-size: clamp(1rem, 1.3vw, 3rem);
+    padding-left: 2%;
+}
+
 #disclaimer {
     font-size: clamp(0.001rem, 0.5vw, 5rem);
+    color: #413d3d;
 }
 
 .left-aligned_container {
